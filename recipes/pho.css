@@ -1,17 +1,68 @@
-/* H1 */
+body {
+    background-color: rgb(198, 92, 240);
+}
 
+/* H1 */
+h1 {
+    text-align: center;
+    font-size: 50px;
+    color: #d4f6d4
+}
 
 
 /* Image */
+img,
+.recipes-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    height: 500px;
+}
+
+/* heading */
+.heading {
+    font-size: 30px;
+    text-decoration: underline;
+    color: rgb(74, 51, 20);
+}
 
 
+/* basic text */
+li,
+.description-font,
+.recipes-button {
+    font-size: 20px;
+}
 
 /* Description */
 
 
 
 /* Ingredients */
+/* descendent .ingredients & p */
+.ingredients p {
+    font-size: 22px;
+    font-style: italic;
+}
 
 
 
 /* Steps */
+
+
+/* Button */
+
+.recipes-button {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(194, 11, 11);
+    border-radius: 8px;
+}
+
+.recipes-button:active,
+.button-font {
+    color: white;
+}
+
