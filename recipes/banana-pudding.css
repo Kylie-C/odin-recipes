@@ -2,7 +2,7 @@ body {
     background-color: rgb(222, 222, 184);
 }
 
-/* H1 */
+
 
 h1 {
     text-align: center;
@@ -11,7 +11,7 @@ h1 {
 }
 
 
-/* Headings */
+
 
 .heading {
     font-size: 30px;
@@ -19,41 +19,40 @@ h1 {
 }
 
 
-/* Image */
 
 img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     height: 500px;
 }
 
-/* mini-heading */
 
-.mini-heading {
-    font-size: 20px;
+
+img,
+.recipes-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
-/* List items */
 
+.recipes-button {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightcoral;
+    border-radius: 8px;
+}
+
+
+
+
+.mini-heading,
+.recipes-button,
 li,
 p {
     font-size: 20px;
 }
 
 
-/* Button */
 
-.recipes-button {
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: lightcoral;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 8px;
-}
 
 .recipes-button:active {
     color: white;

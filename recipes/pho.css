@@ -2,7 +2,7 @@ body {
     background-color: rgb(198, 92, 240);
 }
 
-/* H1 */
+
 h1 {
     text-align: center;
     font-size: 50px;
@@ -10,7 +10,7 @@ h1 {
 }
 
 
-/* Image */
+
 img,
 .recipes-button {
     display: block;
@@ -22,7 +22,8 @@ img {
     height: 500px;
 }
 
-/* heading */
+
+
 .heading {
     font-size: 30px;
     text-decoration: underline;
@@ -30,19 +31,15 @@ img {
 }
 
 
-/* basic text */
+
 li,
 .description-font,
 .recipes-button {
     font-size: 20px;
 }
 
-/* Description */
 
 
-
-/* Ingredients */
-/* descendent .ingredients & p */
 .ingredients p {
     font-size: 22px;
     font-style: italic;
@@ -50,16 +47,13 @@ li,
 
 
 
-/* Steps */
-
-
-/* Button */
-
 .recipes-button {
     font-family: 'Courier New', Courier, monospace;
     background-color: rgb(194, 11, 11);
     border-radius: 8px;
 }
+
+
 
 .recipes-button:active,
 .button-font {
