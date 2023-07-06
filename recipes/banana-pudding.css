@@ -13,22 +13,23 @@ h1 {
 
 
 
-.heading-box {
+.img-description {
     vertical-align: top;
     display: flex;
 }
 
 
 
-.heading-right {
+img {
+    height: 500px;
+}
+
+
+
+.description {
 /* Once I learn about flexboxes, center this vertically */
 }
 
-
-.heading {
-    font-size: 30px;
-    text-decoration: underline;
-}
 
 
 
@@ -38,10 +39,20 @@ h1 {
 
 
 
-
-img {
-    height: 500px;
+.heading {
+    font-size: 30px;
+    text-decoration: underline;
 }
+
+
+
+.recipes-button {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: lightcoral;
+    border-radius: 8px;
+    display: block;
+}
+
 
 
 
@@ -58,15 +69,6 @@ img,
 .recipes-button {
     margin-left: auto;
     margin-right: auto;
-}
-
-
-
-.recipes-button {
-    font-family: 'Courier New', Courier, monospace;
-    background-color: lightcoral;
-    border-radius: 8px;
-    display: block;
 }
 
 
