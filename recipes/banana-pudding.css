@@ -13,10 +13,29 @@ h1 {
 
 
 
+.heading-box {
+    vertical-align: top;
+    display: flex;
+}
+
+
+
+.heading-right {
+/* Once I learn about flexboxes, center this vertically */
+}
+
+
 .heading {
     font-size: 30px;
     text-decoration: underline;
 }
+
+
+
+.heading-p {
+    width: 500px;
+}
+
 
 
 
@@ -28,7 +47,6 @@ img {
 
 img,
 .recipes-button {
-    display: block;
     margin-left: auto;
     margin-right: auto;
 }
@@ -39,6 +57,7 @@ img,
     font-family: 'Courier New', Courier, monospace;
     background-color: lightcoral;
     border-radius: 8px;
+    display: block;
 }
 
 
