@@ -45,6 +45,15 @@ img {
 
 
 
+h3,
+h4,
+h5,
+h6 {
+    text-align: center;
+}
+
+
+
 img,
 .recipes-button {
     margin-left: auto;
