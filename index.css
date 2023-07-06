@@ -13,4 +13,12 @@ h1 {
 ul {
     list-style-type: none;
     font-size: 20px;
+    display: flex;
+    padding-inline-start: 0;
+    margin: 50px 0;
 }
+
+li {
+    margin: 0 auto;
+}
+
