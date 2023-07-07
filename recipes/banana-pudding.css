@@ -3,7 +3,6 @@ body {
 }
 
 
-
 h1 {
     text-align: center;
     font-size: 50px;
@@ -11,13 +10,10 @@ h1 {
 }
 
 
-
-
-.img-description {
+.img-description-container {
     vertical-align: top;
     display: flex;
 }
-
 
 
 img {
@@ -25,18 +21,15 @@ img {
 }
 
 
-
-.description {
+.description-container {
 /* Once I learn about flexboxes, center this vertically */
+    margin-right: 60px;    
 }
-
-
 
 
 .heading-p {
     width: 500px;
 }
-
 
 
 .heading {
@@ -45,15 +38,13 @@ img {
 }
 
 
-
 .recipes-button {
     font-family: 'Courier New', Courier, monospace;
     background-color: lightcoral;
     border-radius: 8px;
     display: block;
+    padding: 5px 15px;
 }
-
-
 
 
 h3,
@@ -64,6 +55,13 @@ h6 {
 }
 
 
+.ingredients-container,
+.steps-container,
+.make-ahead-container,
+.serving-ideas-container {
+    margin: auto 60px;
+}
+
 
 img,
 .recipes-button {
@@ -72,16 +70,12 @@ img,
 }
 
 
-
-
 .mini-heading,
 .recipes-button,
 li,
 p {
     font-size: 20px;
 }
-
-
 
 
 .recipes-button:active {
