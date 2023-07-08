@@ -3,7 +3,6 @@ body {
 }
 
 
-
 h1 {
     text-align: center;
     font-size: 50px;
@@ -22,12 +21,10 @@ h2 {
 }
 
 
-
 img {
     height: 500px;
     margin: 5px 5px 5px 100px;
 }
-
 
 
 .description-container {
@@ -36,11 +33,9 @@ img {
 }
 
 
-
 .heading-p {
     width: 500px;
 }
-
 
 
 .heading {
@@ -50,6 +45,11 @@ img {
 }
 
 
+.notes-container {
+    border: 5px dotted yellow;
+    margin: 0 60px 20px 60px;
+}
+
 
 .recipes-button {
     font-family: 'Courier New', Courier, monospace;
@@ -57,7 +57,6 @@ img {
     border-radius: 8px;
     padding: 5px 15px;
 }
-
 
 
 h3,
@@ -69,9 +68,19 @@ h6 {
 
 
 .ingredients-container,
-.steps-container,
-.notes-container {
+.steps-container {
     margin: auto 60px;
+}
+
+
+.steps-container ol {
+    width: 1000px;
+    margin-left: 150px;
+}
+
+
+.ingredients-container ul {
+    margin-left: 400px;
 }
 
 
@@ -82,9 +91,6 @@ h6 {
 }
 
 
-
-
-
 li,
 .recipes-button,
 p {
@@ -92,13 +98,10 @@ p {
 }
 
 
-
 .ingredients-container p {
     font-size: 22px;
     font-style: italic;
 }
-
-
 
 
 .recipes-button:active,
