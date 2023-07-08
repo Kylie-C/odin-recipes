@@ -44,8 +44,14 @@ img {
 }
 
 
+.steps-container {
+    margin: 0 60px 50px 60px;   
+}
+
+
 .make-serving-container {
     display: flex;
+    margin-bottom: 50px;
 }
 
 
@@ -63,11 +69,11 @@ h4,
 h5,
 h6 {
     text-align: center;
+    margin-top: 50px;
 }
 
 
 .ingredients-container,
-.steps-container,
 .make-ahead-container,
 .serving-ideas-container {
     margin: auto 60px;
@@ -83,6 +89,9 @@ h6 {
 .make-ahead-container,
 .serving-ideas-container {
     border: 5px dotted rgb(25, 145, 25);
+    padding: 0 20px;
+    width: 600px;
+    height: 350.3px;
 }
 
 
