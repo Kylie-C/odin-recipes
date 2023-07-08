@@ -44,6 +44,11 @@ img {
 }
 
 
+.make-serving-container {
+    display: flex;
+}
+
+
 .recipes-button {
     font-family: 'Courier New', Courier, monospace;
     background-color: lightcoral;
@@ -72,6 +77,12 @@ h6 {
 .recipes-button {
     margin-left: auto;
     margin-right: auto;
+}
+
+
+.make-ahead-container,
+.serving-ideas-container {
+    border: 5px dotted rgb(25, 145, 25);
 }
 
 
