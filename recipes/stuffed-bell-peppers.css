@@ -12,7 +12,7 @@ h1 {
 
 
 h2 {
-    margin-left: 60px;
+    margin-left: 160px;
 }
 
 
@@ -68,6 +68,11 @@ h6 {
 }
 
 
+.ingredients-container,
+.steps-container,
+.notes-container {
+    margin: auto 60px;
+}
 
 
 .recipes-button {
