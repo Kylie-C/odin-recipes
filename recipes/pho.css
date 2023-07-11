@@ -44,6 +44,22 @@ img {
     color: rgb(74, 51, 20);
 }
 
+.ingredients-garnishes-container {
+    display: flex;
+}
+
+
+.garnishes-list-container {
+    margin-top: -8px;
+}
+
+
+.garnish-bullet-container {
+    list-style-type: square;
+    margin-top: -15px;
+}
+/* change bullets of garnishes */
+
 
 .recipes-button {
     font-family: 'Courier New', Courier, monospace;
@@ -51,6 +67,13 @@ img {
     border-radius: 8px;
     display: block;
     padding: 5px 15px;
+}
+
+
+.recipes-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
@@ -66,10 +89,11 @@ h4 {
 }
 
 
-.recipes-button {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.ingredients-list-container,
+.garnishes-list-container {
+    width: 600px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 
