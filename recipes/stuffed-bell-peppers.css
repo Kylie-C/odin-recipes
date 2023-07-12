@@ -10,11 +10,6 @@ h1 {
 }
 
 
-h2 {
-    margin-left: 160px;
-}
-
-
 .img-description-container {
     vertical-align: top;
     display: flex;
@@ -28,8 +23,11 @@ img {
 
 
 .description-container {
-    /* Once I learn about flexboxes, center this vertically */
-    margin: 0 60px; 
+    margin: 0 60px 0 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
